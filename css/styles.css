@@ -5,7 +5,7 @@ body {
     line-height: 1.5;
     font-size: 16px;
 
-.header-logo1 {
+.header-logo-one {
     font-family: "Raleway",
         sans-serif;
     font-weight: 700;
@@ -15,7 +15,7 @@ body {
         text-transform: uppercase;
         color: #4d5ae5;
 }
-.header-logo2 {
+.header-logo-two {
     font-family: "Raleway",
             sans-serif;
         font-weight: 700;
@@ -50,6 +50,56 @@ ul {
 .address-info .link:focus {
     color:#4D5AE5;
 }
+.main-section{
+    background: #2e2f42;
+}
+.main-title {
+    font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07143;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #fff;
+}
 .button-order {
+    background-color: #4d5ae5;
     cursor: pointer;
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #fff;
+}
+h3 {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+h2 {
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11111;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+}
+.section-end {
+    background-color: #2e2f42;
+}
+.section-end .header-logo-two {
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 1.16667;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #f4f4fd;
+}
+.text-end {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #f4f4fd;
 }
