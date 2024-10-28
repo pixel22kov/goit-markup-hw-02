@@ -32,9 +32,11 @@ body {
         letter-spacing: 0.02em;
         color: #2e2f42;
 }
-.link-nav .link:hover,
-.link-nav .link:active,
-.link-nav .link:focus {
+.link-nav:hover {
+    color: #404BBF
+}
+.link-nav:active,
+.link-nav:focus {
     color: #404BBF;
 }
 a {
@@ -106,6 +108,7 @@ background-color: #404BBF;
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
+        text-transform: capitalize;
         color: #2e2f42;
 }
 .team-list {
@@ -133,6 +136,7 @@ background-color: #404BBF;
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
+        text-transform: capitalize;
         color: #2e2f42;
 }
 .services-portfolio {
